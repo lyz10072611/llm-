@@ -38,8 +38,8 @@ from pathlib import Path
 import markdown as md
 from pypdf import PdfReader
 
-ROOT = Path(__file__).resolve().parent.parent.parent
-WIKI = ROOT / "wiki"
+ROOT = Path(__file__).resolve().parent.parent
+WIKI = ROOT
 OUT = WIKI / "html"
 PDF_OUT = OUT / "pdf"
 ASSETS_REL = "html-assets/style.css"
